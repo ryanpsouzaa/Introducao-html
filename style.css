@@ -42,21 +42,31 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
+.apresentacao-links-subtitulo{
+    font-family: "Krona One", sans-serif;
+    font-size: 24px;
+    font-weight:400;
+
+}
+
 .apresentacao-conteudo-links{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
     justify-content: space-between;
 }
 
 .apresentacao-links-botao{
-    background-color: #22D4FD;
-    width: 280px;
+    border: 2px solid #22D4FD;
+    width: 378px;
     text-align: center;
     text-decoration: none;
-    border-radius: 16px;
+    border-radius: 8px;
     padding: 21.5px 0px;
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
-    color:black;
+    color:#F6F6F6;
     font-weight: 600;
 
 }
