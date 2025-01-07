@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100..900&display=swap');
 
-body{
-    height: 100vh;
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     background-color: black;
     color: #E6E8E6;
     
+}
+
+main{
+    flex:1;
 }
 
 .strong-titulo{
@@ -18,7 +24,7 @@ body{
 }
 
 .apresentacao{
-    margin: 10% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items:center;
     justify-content: space-between;
@@ -55,9 +61,14 @@ body{
     align-items: center;
     gap: 32px;
     justify-content: space-between;
+
 }
 
 .apresentacao-links-botao{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
     border: 2px solid #22D4FD;
     width: 378px;
     text-align: center;
@@ -70,3 +81,51 @@ body{
     font-weight: 600;
 
 }
+
+.apresentacao-links-botao:hover{
+    background-color: #272727;
+}
+
+.apresentacao-links-botao img{
+    width: 24px;
+    height: 24px;
+    
+}
+
+.rodape{
+    padding: 24px 0;
+    text-align: center;
+    margin-top: auto;
+
+    color:black;
+    background-color: #22D4FD;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.cabecalho-menu-link{
+    font-family: 'Montserrat', serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    
+    text-decoration: none;
+}
+
+.cabecalho{
+    padding: 2% 0 0 15%
+}
+
+.cabecalho-menu{
+    display:flex;
+    gap:80px;
+}
+
+
+
+
+
+
+    
